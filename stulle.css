@@ -1,0 +1,16 @@
+#acerca{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#acerca-img{
+    background: url('./images/pasteles.jpeg') no-repeat center top;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#acerca-txt{
+    padding: 100px 100px 100px 100px;
+
+}

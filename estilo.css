@@ -1,0 +1,70 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("Fuentes/OpenSans-VariableFont.ttf");
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("Fuentes/Rubik-Regular.ttf");
+  font-weight: normal;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: Rubik;
+  text-align: justify;
+}
+
+body{
+  background: #F6F6F6;
+}
+
+header {
+  background-image: url('images/wallpaper_cake.jpg');
+  background-size: cover;
+}
+
+#home h2 {
+  font-size: 3em;
+  font-family: Rubik, sans-serif;
+  font-weight: 900;
+  color: #DC8185;
+}
+
+/* Productos */
+
+#productos {
+  min-height: 100vh;
+}
+
+.encabezados {
+  color: #BB756A;
+  letter-spacing: 1px;
+  padding: 16px 0;
+  font-family: Rubik;
+  font-weight: bold;
+}
+
+/* Informacion */
+
+#informacion {
+  min-height: 100vh;
+}
+
+@media (max-width: 750px) {
+  .navbar-collapse{
+    background-color: #f6f6f6;
+  }
+
+  .header_libro{
+    display: none;
+  }
+}
